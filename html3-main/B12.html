@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bài Kiểm tra số 3</title>
+    <link href="B12.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="main">
+        <div class="anh">
+            <img src="1.jpg" />
+        </div>
+        <div class="des">
+            <div>
+                <h1>Masta Baby Shop Shirt</h1>
+            </div>
+
+            <div>
+                <h2>$85.00</h2>
+            </div>
+
+            <div>
+                <label>Availability:</label>
+                <p>Instock</p>
+            </div>
+
+            <div>
+                <label>Description:</label>
+                <p>Sản phẩm dành cho trẻ con</p>
+            </div>
+
+            <div>
+                <div class="dmau">
+                    <label>Color:</label>
+                    <div class="mau den"></div>
+                    <div class="mau nau"></div>
+                    <div class="mau vang"></div>
+                    <div class="mau cam"></div>
+                    <div class="mau xanhla"></div>
+                    <div class="mau lam"></div>
+                </div>
+            </div>
+
+            <div class="dsize">
+                <div>
+                    <label class="cl">Size:</label>
+                    <div class="size">XS</div>
+                    <div class="size">S</div>
+                    <div class="size">M</div>
+                    <div class="size">L</div>
+                    <div class="size">XL</div>
+                    <div class="size">2XL</div>
+                    <div class="size">3XL</div>
+                    <div class="size">4XL</div>
+                </div>
+            </div>
+            <div id="tgh">
+                <div class="themSL">
+                    <button class="trubtn" onclick="xulytru()">-</button>
+                    <input type="text" name="amount" value="1" id="amount" />
+                    <button class="congbtn" onclick="xulycong()">+</button>
+                    <button id="btAdd" onclick="nutAdd()">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+        <div>
+            <table class="tbl" border="1">
+                <tr>
+                    <th>Product Name</th>
+                    <th>Quantity</th>
+                    <th>Unit Price</th>
+                    <th>Total</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td>Masta Baby Shop Shirt</td>
+                    <td><input type="number" id="numberInput" name="numberInput" min="0" max="100" step="1" value="1"></td>
+                    <td><span id="unit" data-value="85.00">$85.00</span>
+                    <td><span id="total" data-value="85.00">$85.00</span></td>
+                    <td><button></button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="B12.js"></script>
+</body>
+
+</html>

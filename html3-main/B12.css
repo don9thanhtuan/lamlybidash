@@ -1,0 +1,134 @@
+.anh {
+    float: left;
+    width: 300px;
+    height: 300px;
+}
+
+.main {
+    height: 500px;
+    width: 810px;
+}
+
+.themsl {
+    height: 50px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.so {
+    padding: 0 21;
+}
+
+#tgh {
+    height: 50px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    #tgh #amount {
+        height: 50px;
+        width: 50px;
+        text-align:center;
+    }
+
+    #tgh button {
+        height: 50px;
+        width: 50px;
+    }
+    #tgh #btAdd {
+        margin-left:50px;
+        height: 50px;
+        width: 150px;
+    }
+
+.btA {
+    height: 50px;
+    width: 150px;
+}
+
+.tang {
+    float: left;
+    height: 50px;
+    width: 50px;
+}
+
+.giam {
+    float: right;
+    height: 50px;
+    width: 50px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.dmau {
+    width: 1000px;
+    height: 25px;
+}
+
+.dsize {
+    width: 1000px;
+    height: 25px;
+}
+
+.des {
+    height: 300px;
+    width: 500px;
+    float: right;
+}
+
+.cl {
+    clear: both;
+}
+
+label {
+    float: left;
+}
+
+.size {
+    float: left;
+    margin-left: 10px;
+}
+
+.mau {
+    float: left;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.vang {
+    background-color: yellow;
+}
+
+.den {
+    margin-left: 10px;
+    background-color: black;
+}
+
+.nau {
+    background-color: burlywood;
+}
+
+.cam {
+    background-color: orange;
+}
+
+.xanhla {
+    background-color: green;
+}
+
+.lam {
+    background-color: darkturquoise;
+}
+
+.tbl 
+{
+    border: 1px solid black;
+}
